@@ -8,7 +8,7 @@ export const About = () => {
 
 
   return (
-    <div className="text-white py-20">
+    <div className="text-white py-20 mt-10">
       <div className="container mx-auto">
         <h1 className="text-6xl text-center font-light mb-15">About My</h1>
         <div className="flex flex-wrap gap-5">

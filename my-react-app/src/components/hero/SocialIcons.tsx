@@ -1,15 +1,15 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import './icons.css';
 
 function SocialIcons() {
   return (
-    <div className="fixed bottom-0 left-5 z-50 flex flex-col items-center space-y-6">
-
+    <div className="flex flex-wrap justify-center items-center gap-20">
       {/* Social Icons */}
       <a
         href="https://github.com/yourusername"
         target="_blank"
         rel="noopener noreferrer"
-        className="z-10 text-white hover:text-pink-500 transition-transform hover:scale-110"
+        className="z-10 text-white hover:text-white-500 transition-transform hover:scale-110 pointer-events-auto duration-300"
       >
         <FaGithub className="icon" />
       </a>
@@ -17,23 +17,18 @@ function SocialIcons() {
         href="https://linkedin.com/in/yourusername"
         target="_blank"
         rel="noopener noreferrer"
-        className="z-10 text-white hover:text-blue-400 transition-transform hover:scale-110"
+        className="z-10 text-white hover:text-white-400 transition-transform hover:scale-110 pointer-events-auto duration-300"
       >
         <FaLinkedin className="icon" />
       </a>
       <a
         href="mailto:your@email.com"
-        className="z-10 text-white hover:text-green-400 transition-transform hover:scale-110"
+        className="z-10 text-white hover:text-white-400 transition-transform hover:scale-110 pointer-events-auto duration-300"
       >
         <FaEnvelope className="icon" />
       </a>
 
-      {/* Vertical white strip */}
-      <div className="strip min-h-40 bg-blue-500"></div>
-
     </div>
-
-    
   );
 }
 

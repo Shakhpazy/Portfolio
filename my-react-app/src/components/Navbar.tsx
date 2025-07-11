@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import "./navbar.css"
 
 const navigation = [
   { name: 'About', href: '#about' },
@@ -16,16 +17,14 @@ export const Navbar = () => {
       {({ open }) => (
         <>
           <div className="container mx-auto flex justify-between items-center">
-            {/* Logo or Title */}
-            <div className="text-gray-200 text-4xl font-light">Yusuf Shakhpaz</div>
+            <div className="text-gray-200 text-3xl font-light">Yusuf Shakhpaz</div>
 
-            {/* Desktop nav */}
-            <div className="hidden md:flex space-x-11">
+            <div className="desktopviewnavbar md:flex space-x-15 ">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-200 hover:text-gray-400 px-3 py-2 text-lg"
+                  className="text-gray-200 hover:text-gray-400 text-lg"
                 >
                   {item.name}
                 </a>

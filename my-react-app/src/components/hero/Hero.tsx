@@ -1,11 +1,11 @@
 import profilePic from '../../assets/profile.jpg';
-import "./hero.css"; // Assuming you have a hero.css file for custom styles
+import SocialIcons from './SocialIcons';
 
 export const Hero = () => {
   return (
     <div className="hero text-white py-20">
-        <div className="container flex items-center mx-auto gap-2">
-            <div className="basis-5/8 p-5">
+        <div className="container md:flex items-center mx-auto gap-2 md:mt-40">
+            <div className="md:basis-[60%] p-5 md:text-left text-center">
                 <h1 className='font-light text-3xl text-gray-400 mb-2'>Hello! I am</h1>
                 <h1 className='font-light text-3xl mb-2'>Yusuf Shakhpaz</h1>
                 <h1 className='text-3xl text-pink-600 mb-2'>Software Engineer</h1>
@@ -14,7 +14,7 @@ export const Hero = () => {
                 Get My Resume
                 </a>
             </div>
-            <div className="basis-3/8 p-5 relative">
+            <div className="md:basis-[40%] p-5 relative">
                 <div className="absolute inset-0 bg-gradient-to-tl from-pink-500 to-blue-500 blur-lg opacity-30 z-0"></div>
                 <img
                     src={profilePic}
@@ -22,7 +22,9 @@ export const Hero = () => {
                     className="relative z-10 w-full h-auto"
                 />
             </div>
-
+        </div>
+        <div className='container mt-15 mx-auto'>
+            <SocialIcons />
         </div>
     </div>
 

@@ -1,7 +1,7 @@
 import { Hero } from './components/hero/Hero'
 import { About} from './components/about/About'
 import { Skills } from './components/skills/Skills'
-import SocialIcons from './components/SocialIcons'
+import { Navbar } from './components/Navbar'
 
 function App() {
 
@@ -10,7 +10,6 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <SocialIcons />
     </div>
   )
 }
