@@ -3,7 +3,7 @@ import './icons.css';
 
 function SocialIcons() {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-20">
+    <div className="flex flex-wrap justify-center items-center gap-20 md:mt-30">
       {/* Social Icons */}
       <a
         href="https://github.com/yourusername"

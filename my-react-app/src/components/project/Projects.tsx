@@ -1,5 +1,4 @@
-
-export const About = () => {
+export const Projects = () => {
     const data = {
     Past: "Started my journey in tech out of curiosity, building small projects and learning fundamentals through self-study and coursework. Participated in hackathons and explored areas like web development and blockchain.",
     Present: "Currently pursuing a Bachelor's in Computer Science at the University of Washington Tacoma. Building real-world applications like CoinCapCrypto and SafeSpot, while leading initiatives in my club GitHired to help others grow their careers.",
@@ -8,9 +7,9 @@ export const About = () => {
 
 
   return (
-    <div className="text-white py-20 mt-10 md:mt-20">
+    <div className="text-white py-20">
       <div className="container mx-auto">
-        <h1 className="text-6xl text-center font-light mb-15">About My</h1>
+        <h1 className="text-6xl text-center font-light mb-15">Projects</h1>
         <div className="flex flex-wrap gap-5 px-5">
             {Object.entries(data).map(([key, value]) => (
                 <div key={key} className="flex-1 bg-slate-800 rounded-lg p-6 min-w-[250px] hover:bg-slate-700 hover:scale-105 transition duration-300">

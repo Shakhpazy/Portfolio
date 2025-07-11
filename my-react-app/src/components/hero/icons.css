@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.strip {
-    width: 0.2rem;
-    background-color: white;
-    z-index: 0;
-}
 
 .icon {
     width: 4rem;
     height: 4rem;
+    color: #e60077;
 }
 
+@media screen and (max-width: 768px) {
+    .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

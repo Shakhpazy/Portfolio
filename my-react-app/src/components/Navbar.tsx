@@ -16,10 +16,10 @@ export const Navbar = () => {
     <Disclosure as="nav" className="bg-slate-900 p-4">
       {({ open }) => (
         <>
-          <div className="container mx-auto flex justify-between items-center">
+          <div className="container mx-auto flex justify-between items-center px-5">
             <div className="text-gray-200 text-3xl font-light">Yusuf Shakhpaz</div>
 
-            <div className="desktopviewnavbar md:flex space-x-15 ">
+            <div className="desktopviewnavbar hidden md:!flex space-x-12 ">
               {navigation.map((item) => (
                 <a
                   key={item.name}

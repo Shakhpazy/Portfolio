@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="hero text-white py-20">
         <div className="container md:flex items-center mx-auto gap-2 md:mt-40">
-            <div className="md:basis-[60%] p-5 md:text-left text-center">
+            <div className="md:basis-[60%] p-5 md:!text-left text-center">
                 <h1 className='font-light text-3xl text-gray-400 mb-2'>Hello! I am</h1>
                 <h1 className='font-light text-3xl mb-2'>Yusuf Shakhpaz</h1>
                 <h1 className='text-3xl text-pink-600 mb-2'>Software Engineer</h1>
