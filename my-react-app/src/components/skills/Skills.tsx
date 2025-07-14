@@ -7,7 +7,7 @@ export const Skills = () => {
     <div className="text-white py-20">
       <div className="container mx-auto">
         <h1 className="text-6xl text-center font-light mb-15">Skills</h1>
-        <div className="skillssection">
+        <div className="skillssection px-5">
             {SkillsData.map((category, index) => {
               const title = Object.keys(category)[0] as 'Languages' | 'Frameworks & Libraries' | 'Tools & Platforms';
               const skills = category[title];
