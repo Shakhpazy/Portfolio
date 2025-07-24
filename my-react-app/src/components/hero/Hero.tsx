@@ -29,3 +29,4 @@ export const Hero = () => {
 }
 
 // my-react-app/src/components/hero/Hero.tsx
+// This file defines the Hero component for the portfolio website.
