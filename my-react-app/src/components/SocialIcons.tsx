@@ -3,10 +3,10 @@ import './icons.css';
 
 function SocialIcons() {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-20 md:mt-30">
+    <div className="flex flex-wrap justify-center items-center gap-5">
       {/* Social Icons */}
       <a
-        href="https://github.com/yourusername"
+        href="https://github.com/Shakhpazy"
         target="_blank"
         rel="noopener noreferrer"
         className="z-10 text-white hover:text-white-500 transition-transform hover:scale-110 pointer-events-auto duration-300"
@@ -14,20 +14,13 @@ function SocialIcons() {
         <FaGithub className="icon" />
       </a>
       <a
-        href="https://linkedin.com/in/yourusername"
+        href="www.linkedin.com/in/yusufshakhpaz"
         target="_blank"
         rel="noopener noreferrer"
         className="z-10 text-white hover:text-white-400 transition-transform hover:scale-110 pointer-events-auto duration-300"
       >
         <FaLinkedin className="icon" />
       </a>
-      <a
-        href="mailto:your@email.com"
-        className="z-10 text-white hover:text-white-400 transition-transform hover:scale-110 pointer-events-auto duration-300"
-      >
-        <FaEnvelope className="icon" />
-      </a>
-
     </div>
   );
 }

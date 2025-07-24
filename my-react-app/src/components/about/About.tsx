@@ -1,10 +1,10 @@
 
 export const About = () => {
-    const data = {
-    Past: "Started my journey in tech out of curiosity, building small projects and learning fundamentals through self-study and coursework. Participated in hackathons and explored areas like web development and blockchain.",
-    Present: "Currently pursuing a Bachelor's in Computer Science at the University of Washington Tacoma. Building real-world applications like CoinCapCrypto and SafeSpot, while leading initiatives in my club GitHired to help others grow their careers.",
-    Future: "Aiming to become a software engineer focused on solving meaningful problems at scale. Excited to explore opportunities in AI, fintech, or Web3, and to keep growing through collaboration, research, and real-world impact."
-    };
+  const data = {
+    Past: "I got into tech out of curiosity, starting with small projects and learning the basics through a mix of self-study and academic coursework. I spent time experimenting, attending events, and exploring different areas of software development.",
+    Present: "I'm currently studying Computer Science and gaining hands-on experience by building applications and contributing to collaborative efforts in my campus community. I enjoy working on practical problems and helping others grow alongside me.",
+    Future: "I'm driven to become a well-rounded software engineer focused on solving real-world challenges. I'm especially interested in areas where technology can create meaningful impact, and I'm excited to keep learning, collaborating, and pushing my limits."
+  };
 
 
   return (
