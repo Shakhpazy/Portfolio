@@ -1,6 +1,6 @@
 import profilePic from '../../assets/profile.jpg';
 import SocialIcons from './SocialIcons';
-import { FaUserSecret } from "react-icons/fa";
+import { FaUserSecret } from 'react-icons/fa';
 
 export const Hero = () => {
   return (
@@ -15,9 +15,9 @@ export const Hero = () => {
                 Get My Resume
                 </a>
             </div>
-            <div className="md:basis-[40%] p-5 relative">
-                <div className="bg-slate-800 p-2 rounded-full">
-                    <FaUserSecret className="text-orange-600 text-3xl" />
+            <div className="md:basis-[40%] p-5 relative flex items-center justify-center">
+                <div className="rounded-full shadow-lg transition-transform duration-300 hover:scale-105">
+                    <FaUserSecret className="text-gray-800 text-8xl" />
                 </div>
             </div>
         </div>
