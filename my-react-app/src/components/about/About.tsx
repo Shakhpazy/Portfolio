@@ -8,13 +8,13 @@ export const About = () => {
 
 
   return (
-    <div className="text-white py-20 mt-10 md:mt-20">
+    <div className="text-white py-20 mt-10 md:mt-20 " id="about">
       <div className="container mx-auto">
         <h1 className="text-6xl text-center font-light mb-15">About My</h1>
         <div className="flex flex-wrap gap-5 px-5">
             {Object.entries(data).map(([key, value]) => (
                 <div key={key} className="flex-1 bg-slate-800 rounded-lg p-6 min-w-[250px] hover:bg-slate-700 hover:scale-105 transition duration-300">
-                    <h2 className="text-4xl text-pink-600 text-center font-light mb-6">{key}</h2>
+                    <h2 className="text-4xl text-orange-600 text-center font-light mb-6">{key}</h2>
                     <p className="text-base font-light text-xl text-center">{value}</p>
                 </div>
             ))}

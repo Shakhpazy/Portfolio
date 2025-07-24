@@ -5,7 +5,7 @@ export const Projects = () => {
 
 
   return (
-    <div className="text-white py-20">
+    <div className="text-white py-20" id="projects">
       <div className="container mx-auto">
         <h1 className="text-6xl text-center font-light mb-15">Projects</h1>
         <div className="projects p-5">

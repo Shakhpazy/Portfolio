@@ -24,7 +24,7 @@ export const projectData: Project[] = [
     name: 'RouteWatch',
     description: 'RouteWatch is a mobile-first safety routing app that generates walking paths based on real-time public safety data. Users receive heatmap visualizations and safe route suggestions tailored to their location.',
     image: project2img,
-    github: 'https://github.com/YOUR_USERNAME/routewatch',
+    github: 'https://devpost.com/software/routewatch',
     technologies: ['React Native', 'Express', 'Firebase Auth', 'Tailwind CSS', 'Map APIs'],
   },
   {

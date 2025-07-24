@@ -1,5 +1,5 @@
 import type { Project } from "./data";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt  } from "react-icons/fa";
 
 type ProjectItemProps = {
     projectprop: Project;
@@ -22,23 +22,23 @@ export const ProjectItem = ({ projectprop }: ProjectItemProps) => {
                     {projectprop.technologies.map((tech, index) => (
                         <span
                             key={index}
-                            className="px-4 py-2 bg-slate-800 rounded-lg hover:scale-110 transition-transform duration-200 text-pink-600"
+                            className="px-4 py-2 bg-slate-800 rounded-lg hover:scale-110 transition-transform duration-200 text-orange-600"
                         >
                             {tech}
                         </span>
                     ))}
                 </div>
-                <div className="flex justify-center lg:!justify-start">
+                
+                {/* <div className="flex justify-center lg:!justify-start">
                     <a
                     href={projectprop.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-pink-600 border-1 border-pink-600 flex items-center gap-2 px-2 py-1 rounded-lg hover:bg-pink-600 hover:text-white transition-colors duration-200"
+                    className="text-orange-600 border-1 border-orange-600 flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-orange-600 hover:text-white transition-colors duration-200"
                 >
-                    Code
-                    <FaGithub className="" />
+                    <FaExternalLinkAlt />
                 </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
