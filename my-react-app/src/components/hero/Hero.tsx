@@ -27,3 +27,5 @@ export const Hero = () => {
 
   );
 }
+
+// my-react-app/src/components/hero/Hero.tsx
